@@ -154,3 +154,36 @@ p {
     background-color: orange;
     flex: 6;
 }
+
+@media only screen and (max-width:480px) {
+  .wrapper_8 {
+    display: flex;
+    background-color: blue;
+    height: 60px;
+}
+
+  .child:nth-child(even) {
+    background-color: green;
+    flex: 1;
+}
+
+.child:nth-child(odd) {
+    background-color: orange;
+    flex: 2;
+}
+.wrapper_9 {
+  display: flex;
+  background-color: blue;
+  height: 60px;
+}
+
+.child_1:nth-child(even) {
+  background-color: green;
+  flex: 1;
+}
+
+.child_1:nth-child(odd) {
+  background-color: orange;
+  flex: 2;
+}
+}
