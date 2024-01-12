@@ -1,0 +1,25 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.non_active {
+    border: 0;
+    background-color: transparent;
+}
+
+.logo {
+    font-weight: 600;
+}
+
+.active {
+    background-color: #081E341F;
+    border: 0;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}

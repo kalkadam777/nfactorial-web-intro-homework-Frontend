@@ -1,0 +1,39 @@
+div button:nth-child(even) {
+    background-color: red;
+}
+
+div button:nth-child(odd){
+    background-color: blue;
+}
+
+.conteiner {
+    margin-top:50px;
+    background-color: blue;
+    width: 100%;
+    height: 50px;
+    display: flex;
+}
+
+.child {
+    background-color: cyan;
+    flex:1;
+    height: 50px;
+    border: 1px ;
+}
+
+.conteiner .child:nth-child(even) {
+    background-color: green;
+    flex: 4;
+}
+.conteiner .child:nth-child(odd) {
+    background-color: rgb(248, 176, 43);
+}
+
+.conteiner .childd:nth-child(even) {
+    background-color: green;
+    flex: 1;
+}
+.conteiner .childd:nth-child(odd) {
+    background-color: rgb(248, 176, 43);
+    flex: 5;
+}

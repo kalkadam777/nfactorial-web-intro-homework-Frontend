@@ -1,0 +1,39 @@
+.flexbox {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+    align-items:center ;
+}
+
+.div1, .div3 {
+    background-color: blue;
+    height: 100px;
+    width: 180px;
+}
+
+.div2, .div4 {
+    background-color: yellow;
+    height: 100px;
+    width: 180px;
+}
+
+@media only screen and (min-width:768px) {
+    .div1, .div2, .div3, .div4 {
+        width: 100px;
+    }
+}
+@media only screen and (min-width:600px) {
+    .div1, .div2, .div3, .div4 {
+        width: 100px;
+    }
+
+    .div1 {
+        background-color: red;
+    }
+}
+@media only screen and (max-width:149px) {
+    .div1, .div2, .div3, .div4 {
+        background-color: blue;
+    }
+}

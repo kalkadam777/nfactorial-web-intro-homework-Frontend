@@ -1,0 +1,11 @@
+.div1 {
+    background-color: red;
+    margin: 100px;
+    display: inline-block;
+}
+.paragraph1 {
+    color: black;
+}
+.span1 {
+    color: white;
+}

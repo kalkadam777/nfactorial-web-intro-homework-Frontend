@@ -1,0 +1,16 @@
+.grid {
+    display: grid;
+    grid-template-columns: 100px 100px 200px 1fr;
+
+}
+
+.div1, .div3 {
+    background-color: blue;
+    margin: 15px;
+    height: 100px;
+}
+
+.div2, .div4 {
+    background-color: yellow;
+    margin: 15px;
+}
