@@ -1,0 +1,246 @@
+/* Large Devices, Wide Screens */
+@media only screen and (max-width: 1200px) {
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 992px) {
+  /* */
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width: 768px) {
+  /* */
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 480px) {
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 92px;
+    padding: 12px 24px 12px 24px;
+  }
+  .non_active {
+    display: none;
+  }
+
+  .container {
+    width: 360px;
+    display: flex;
+    flex-direction: column-reverse;
+    padding: 32px 24px 32px 24px;
+    gap: 54px;
+    align-items: center;
+    /* align-self: baseline; */
+    /* align-content: center; */
+  }
+
+  .right_content {
+    display: flex;
+    justify-content: center;
+    height: auto;
+    align-items: center;
+    padding-right: 35px;
+  }
+
+  .left_content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    padding-left: 0px;
+    padding-right: 50px;
+  }
+
+  .main_text {
+    width: 312px;
+    font-family: "Kanit", sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    text-align: center;
+    /* line-height: 120%; */
+  }
+
+  .description_text {
+    width: 312px;
+    font-weight: 500;
+    font-size: 14px;
+    text-align: center;
+  }
+
+  .main_image {
+    display: flex;
+    width: 373px;
+    height: 249px;
+    flex-shrink: 0;
+  }
+
+  .main_content {
+    display: flex;
+    flex-direction: column;
+    padding: 54px 24px 54px 24px;
+    align-items: baseline;
+    justify-content: center;
+  }
+
+  .top_content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    gap: 12px;
+  }
+  .bottom_content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* align-items: center; */
+    /* align-content: center; */
+    gap: 40px;
+  }
+
+  .first {
+    gap: 24px;
+    /* align-content: center; */
+  }
+
+  .second {
+    gap: 24px;
+  }
+
+  .third {
+    gap: 24px;
+  }
+
+  .large_text {
+    font-size: 32px;
+    /* text-align: center; */
+  }
+  .first_image {
+    width: 23.052px;
+    height: 42px;
+  }
+  .first_text {
+    font-size: 20px;
+  }
+
+  .first2_text {
+    font-size: 14px;
+  }
+
+  .second_image {
+    width: 31.696px;
+    height: 42px;
+  }
+
+  .third_image {
+    width: 31.871px;
+    height: 42px;
+  }
+
+  .main2_text {
+    font-size: 24px;
+    width: 312px;
+    text-align: center;
+  }
+
+  .description2_text {
+    font-size: 14px;
+    text-align: center;
+    width: 312px;
+  }
+
+  .InputField {
+    display: flex;
+    padding: 54px 24px 54px 24px;
+    justify-content: center;
+    /* align-items: center; */
+    gap: 32px;
+  }
+
+  .textField_content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .search_field {
+    padding: 13px 0px 13px 13px;
+    width: 312px;
+    text-align: center;
+    gap: 12px;
+  }
+
+  .search_icon {
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    top: 25px;
+    transform: translateY(-50%);
+    /* left: 10px; */
+  }
+  .container_2 {
+    display: flex;
+    flex-direction: column;
+    padding: 64px 24px 64px 24px;
+    justify-content: center;
+    align-items: center;
+  }
+  .left_image {
+    width: 352.827px;
+    height: 233.333px;
+  }
+
+  .main_text2 {
+    font-size: 24px;
+  }
+
+  .description_text2 {
+    font-size: 14px;
+    width: 312px;
+  }
+
+  .footer {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    padding: 32px 24px 32px 24px;
+    gap: 40px;
+  }
+
+  .left_footer {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: flex-start;
+  }
+
+  .right_footer {
+    display: flex;
+    align-items: flex-start;
+    gap: 40px;
+  }
+
+  .twitter {
+    padding-left: 0px;
+    position: relative;
+    left: 10px;
+  }
+
+  .instagram {
+    position: relative;
+    left: 10px;
+  }
+
+  .tag_2 {
+    padding-bottom: 20px;
+  }
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width: 320px) {
+  /* */
+}
